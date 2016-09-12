@@ -4,8 +4,8 @@
 
 
 
-##Question: 1) no. of KM travelled before each stop
-###Answer
+####Question: 1) no. of KM travelled before each stop
+#####Answer
 ```{r}
 r <- diff(distance)
 ```
