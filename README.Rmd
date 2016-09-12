@@ -1,16 +1,11 @@
 # assignment1
 
 
-#################################################
-#    meter readings of a car at each stop in KMs
-#
-#    load the Workspace file into RGui and
-#    provide R-Code for these Questions
-#################################################
 
 
-# Question: 1) no. of KM travelled before each stop
-##Answer
+
+##Question: 1) no. of KM travelled before each stop
+###Answer
 ```{r}
 r <- diff(distance)
 ```
