@@ -70,7 +70,12 @@ sum(a)
 ```r
 x <- head(r)
 y <- tail(r)
-tot_h_t <- x+y
+tot_h_t <- x + y
+tot_h_t
+```
+
+```
+## [1] 597 595 591 602 646 626
 ```
 ### Question : 7) total number of KMs travelled using head() and rev()
 #### Answer
@@ -78,7 +83,7 @@ tot_h_t <- x+y
 ```r
 x <- head(r)
 y <- rev(r)
-tot <- x+y
+tot <- x + y
 ```
 
 ```
