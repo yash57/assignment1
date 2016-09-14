@@ -4,19 +4,19 @@
 
 
 
-####Question: 1) no. of KM travelled before each stop
-#####Answer
+###Question: 1) no. of KM travelled before each stop
+####Answer
 ```{r}
 r <- diff(distance)
 ```
-# Question: 2) total number of KMs travelled 
-##Answer 
+###Question: 2) total number of KMs travelled 
+####Answer 
 ```{r}
 total_kms_travld <- sum(r) 
 total_kms_travld
 ```
-# Question: 3) total number of KMs travelled using min() and max()
-##Answer 
+### Question: 3) total number of KMs travelled using min() and max()
+####Answer 
 ```{r}
 mini <- min(r)
 maxi <- max(r)
