@@ -93,5 +93,28 @@ tot
 ## numeric(0)
 ```
 
+```r
 barplot(r)
+```
 
+```
+## Warning in min(w.l): no non-missing arguments to min; returning Inf
+```
+
+```
+## Warning in max(w.r): no non-missing arguments to max; returning -Inf
+```
+
+```
+## Warning in min(x): no non-missing arguments to min; returning Inf
+```
+
+```
+## Warning in max(x): no non-missing arguments to max; returning -Inf
+```
+
+```
+## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
+```
+
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
