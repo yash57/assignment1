@@ -26,7 +26,7 @@ total_kms_travld
 ```
 ## [1] 2136
 ```
-### Question: 3) total number of KMs travelled using min() and max()
+###Question: 3) total number of KMs travelled using min() and max()
 ####Answer 
 
 ```r
@@ -39,8 +39,8 @@ total_travelld
 ```
 ## [1] 44
 ```
-# Question: 4) total number of KMs travelled using indices of vector
-## Answer
+###Question: 4) total number of KMs travelled using indices of vector
+####Answer
 
 ```r
 mi <- r[1]
@@ -52,8 +52,8 @@ tot
 ```
 ## [1] -11
 ```
-# Question : 5) total number of KMs travelled using rev()
-## Answer
+###Question : 5) total number of KMs travelled using rev()
+####Answer
 
 ```r
 a <- rev(r)
@@ -64,14 +64,16 @@ sum(a)
 ## [1] 2136
 ```
 
-# total number of KMs travelled using head() and tail()
+###Question : 6) total number of KMs travelled using head() and tail()
+####Answer
 
 ```r
 x <- head(r)
 y <- tail(r)
 tot_h_t <- x+y
 ```
-# total number of KMs travelled using head() and rev()
+### Question : 7) total number of KMs travelled using head() and rev()
+#### Answer
 
 ```r
 x <- head(r)
@@ -91,6 +93,7 @@ tot
 ```
 ## [1] 615 608 633 560 633 608 626
 ```
+
 
 ```r
 barplot(r)
